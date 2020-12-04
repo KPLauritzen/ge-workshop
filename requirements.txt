@@ -1,0 +1,8 @@
+scikit-learn
+pandas
+great-expectations
+jupyter
+jupyterlab
+numpy==1.19.3
+doit
+pandas_profiling

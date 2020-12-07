@@ -2,8 +2,10 @@
 This is a starting repo for a workshop on `great_expectations`. 
 The intention is that everyone in the audience have spent time with this before the workshop. 
 
-It contains a very barebones example of getting data and doing some preprocessing on it. 
-What is needed is to set up some *expectations*. 
+It contains a very bare-bones example of getting data and doing some preprocessing on it. 
+What you need to do is to set up some **expectations**. 
+You should look at the data, imagine some use-case for it, and then decide what expectations will make sense. 
+Feel free to complicate the data pipeline if you want to experiment more. 
 ## Setting up
 ```shell script
 python -m venv venv/
@@ -17,10 +19,11 @@ doit
 ```
 
 ## Create expectations
-See documentation https://docs.greatexpectations.io/en/latest/
+Have a look at the `great-expectations` [documentation](https://docs.greatexpectations.io/en/latest/).
+You can see some tutorials for getting up and running quickly [here](https://docs.greatexpectations.io/en/latest/guides/tutorials.html).
 
 You can maybe use `pandas_profiling` to get an idea about what expectations to set up. 
-See https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/
+See [documentation here](https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/).
 
 After a suite of expectations have been created, it is possible to generate
 a sort of documentation for the dataset from them. 

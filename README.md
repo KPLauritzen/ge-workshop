@@ -22,6 +22,10 @@ See documentation https://docs.greatexpectations.io/en/latest/
 You can maybe use `pandas_profiling` to get an idea about what expectations to set up. 
 See https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/
 
+After a suite of expectations have been created, it is possible to generate
+a sort of documentation for the dataset from them. 
+See [Data Docs](https://docs.greatexpectations.io/en/latest/reference/core_concepts/data_docs.html).
+This could be useful for getting new people up to speed on a project. 
 
 # Appendix
 ## Boston house prices dataset
